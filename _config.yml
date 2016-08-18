@@ -23,7 +23,7 @@ short_url: 'appnotes.tk'
 google_analytics: UA-69281367-1
 disqus: disqus_2iEbCLOFov
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /appnotes/
 
 # Permalinks
 permalink: /:title

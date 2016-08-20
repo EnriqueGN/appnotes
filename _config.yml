@@ -54,6 +54,8 @@ exclude: [vendor]
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
+
+# Run the in the command line bundle exec rake site:deploy --quiet
 safe: false
 lsi: false
 username: enriquegn

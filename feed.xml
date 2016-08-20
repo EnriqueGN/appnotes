@@ -1,28 +1,40 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title>Appnotes - Articles</title>
+    <description>Application Notes and Technical Articles.</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    http://appnotes.tk/</link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>A Full and Comprehensive Style Test</title>
+        
+          <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 Sep 2014 10:18:00 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        http://appnotes.tk//a-full-and-comprehensive-style-test</link>
+        <guid isPermaLink="true">http://appnotes.tk//a-full-and-comprehensive-style-test</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
+      
+      <item>
+        <title>Convert PDF figures to EPS format</title>
+        
+          <description>&lt;p&gt;In MacOS open the terminal and use &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; command to go to the folder where the PDF figures are going to be converted to EPS. Then execute the following code:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 18 Jan 2014 10:18:00 +0000</pubDate>
+        <link>
+        http://appnotes.tk//Convert-PDF-figures-to-EPS-format</link>
+        <guid isPermaLink="true">http://appnotes.tk//Convert-PDF-figures-to-EPS-format</guid>
+      </item>
+      
+    
   </channel>
 </rss>

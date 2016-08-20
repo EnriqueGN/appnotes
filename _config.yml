@@ -60,9 +60,9 @@ safe: false
 lsi: false
 username: enriquegn
 repo: appnotes
-branch: gh-pages
+branch: master
 relative_source: ../appnotes/
-destination: ./_site
+destination: ../appnotes-pages/
 production_url:  https://enriquegn.github.io/appnotes/
 source_url:      https://github.com/enriquegn/appnotes/
 

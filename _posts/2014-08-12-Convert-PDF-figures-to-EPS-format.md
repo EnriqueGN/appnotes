@@ -5,7 +5,7 @@ title: Convert PDF figures to EPS format
 date:   2014-01-18 10:18:00
 tags: LaTeX Publishing Data formats
 subclass: 'post tag-test tag-content'
-categories: 'casper'
+categories: 'caspee'
 navigation: True
 logo: 'assets/images/ghost.png'
 disqus: true

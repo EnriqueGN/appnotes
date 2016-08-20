@@ -14,12 +14,12 @@ description: "Application Notes and Technical Articles."
 author: 'Admin'
 # edit 'categories' in the front matter of every post to match this username
 nickname: Admin
-bio: 'He is an entusiast of electronics, signal processing and its applications.'
-location: 'Madrid, España'
-url: 'http://appnotes.tk'
+bio: 'An enthusiast of electronics, signal processing and its applications.'
+location: 'Spain'
+url: 'http://appnotes.tk/'
 #image: 'assets/images/casper.png'
 
-short_url: 'appnotes.tk'
+short_url: 'appnotes.tk/'
 google_analytics: UA-82836248-1
 disqus: disqus_2iEbCLOFov
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -56,13 +56,13 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: biomadeira
-repo: jasper
-branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://biomadeira.github.io/jasper/
-source_url:      https://github.com/biomadeira/jasper/
+username: enriquegn
+repo: appnotes
+branch: gh-pages
+relative_source: ../appnotes/
+destination: ./_site
+production_url:  https://enriquegn.github.io/appnotes/
+source_url:      https://github.com/enriquegn/appnotes/
 
 exclude:
   - README.md

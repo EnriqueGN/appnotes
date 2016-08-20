@@ -7,5 +7,4 @@ logo: 'assets/images/ghost.png'
 current: about
 ---
 
-This blog aims to be a place for enthusiast of mathematics, electronics and signal processing,
-where application notes and technical articles are shared.
+This blog aims to be a place where application notes and technical articles are shared. I will jot down certain tricks that I had to look for at some point for personal use, as well as application notes I found interesting. Hope they are also useful to you. 

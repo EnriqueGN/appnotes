@@ -5,7 +5,7 @@ rvm:
 #- 2.1
 - 2.1.1
 
-before_install:
+#before_install:
   - openssl aes-256-cbc -K $encrypted_698c8d2aca3b_key -iv $encrypted_698c8d2aca3b_iv -in publish-key.enc -out publish-key -d
 install:
   # Install Jekyll and dependencies
@@ -18,9 +18,9 @@ script: bundle exec rake site:deploy --quiet #--trace
 # gem install travis
 # GH_TOKEN from https://github.com/settings/tokens
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
-#env:
-#  global:
-#    secure: "AtDqworWV8OtX0cF9Fd7AqN8dYDHot6A4Q9J4ijYImsarvScggO0D2dT6hvvd86X8Q7TqAREvGZc1HLU1xP66Aoym4OybxzSpeDuHHSRDbUF45hTXURSLO7FI2uHOk0bHkOThrXwIYIA0zJmoBjTyPC029wkFbRgsONGyyhaiMyWoLNaHQgY91ERoJieXzjzjDlP0Gl2jW0enTXTAqN39NOtxH7/CDTwXl5jZU9UfWGCS1YmUY6h3i25ySn4h8sNdkIg1LASmOQfkVCgj/YKlni6wYmQBBr/BAhywvDa8KYuu1DnmkBaYH/DmYu2DkB4uQKke/zOxqvgM7JVPHeubIArtKgFOZnMy8P69SzVRvjvq2oOFaVVYM942p/t+Fa7O4o0weSiK8Y/q7hI2KjFhc/3ZrjiEMz4qHk5ZDb6YU4867PrhOO0q9d/7UqJDc+7h1Z2OQNESTx0xDoVD0sw3GZg8xFl3WqMUUG5LrKj4kG73EOpWjZnTLnwO8mciN8pfPeY6eiv7u61L9OibVLChxzfXBqC5aGShKnH/jzujon8mGAoChYEqTbUhIcFv16iTD8dMzm5WRddO7D6phoX3kb8UcUjDptGmL4ZTgw/kt3WI3x3nRAZL5ORahvy7hcNF2XlnEdHwSaE6gOgSMgazxfpkohSN6IUtx8eklCI78A="
+env:
+  global:
+    secure: "m8OFmwvMZ1gRfdYXpMEygPNsIFyYAiAaaaLjdjAlev5uwf5+FAUQN56yLve923s7f8rEHPeeEFIZI+PdM/UJmWwUa1hm+oHLhkckNWQut8HaahRyqARSPhaDCK/rF+SwLLJlkHpIV5vUxlD9IZBEhHYb4P/RzeT3DOKuxTulTKNGa99ptOrGTZLI9pWWF6uPpMHAecFIHNtPsjYkI9Re8ll3uE6pl+fXTtAhxNTrU93LLDO79gIB/15vcXDUSsd0ql9ZCLu1nLCiM2l5Cpyb+HyCNTErRff33tFX0lfmikZRZUmNLc87bl+oxgfZ8GFT5TPZdRATWMzQ/n8zwahHGtXc5I1h/I+QUi3P4lZSTGgKH0XTouY71rq16NCRgXaRqIle1MDERaCxZCH1uMaJOjhRB3iuU4IZrocNffTeQWc7dAPraEeVDQTRQshdPmayRdxhM6xNACbDylsjlsLp05RvIDRRl+5IcYrnXZDz9bNZEDdPW+xs0v88dQ38oQOw960d00TW8S7pO4vKYFd/16sJt54S3IYqxvnb7Y5Vy7I2IpcTzst6uNmZmaT7qhFYh4aIrOYs0oBCZaVxIL6tzxaG17g6WA/ncQCilk4WU5SwQuqFbpdZ0PUVJXSxM/xhS4t4JW8Ru8rp9+ZeMbwx6LTGqyFLbkx1HX5pIB2m580="
 branches:
   only:
     - master

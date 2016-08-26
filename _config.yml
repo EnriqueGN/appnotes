@@ -23,7 +23,8 @@ seo:
   type: mathematics, electronics, signal processing, technical notes, application notes
 
 short_url: 'appnotes.tk/'
-google_analytics: UA-82836248-1
+google_analytics:
+  #UA-82836248-1
 disqus: disqus_2iEbCLOFov
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /

@@ -18,6 +18,9 @@ bio: 'An enthusiast of electronics, signal processing and its applications.'
 location: 'Madrid, Spain'
 url: 'http://appnotes.tk/'
 #image: 'assets/images/casper.png'
+description: Application Notes and Technical Articles
+seo:
+  type: mathematics, electronics, signal processing, technical notes, application notes
 
 short_url: 'appnotes.tk/'
 google_analytics: UA-82836248-1
@@ -32,7 +35,7 @@ permalink: /:title
 
 
 # gems and other configs
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 exclude: [vendor]
 
 # Additional settings available on the front-matter

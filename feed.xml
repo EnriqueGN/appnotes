@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>LaTex support in this blog</title>
+        
+          <description>&lt;p&gt;This is an example of LaTex support in this blog:&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 05 Sep 2016 10:18:00 +0000</pubDate>
+        <link>
+        http://appnotes.tk//Math-example</link>
+        <guid isPermaLink="true">http://appnotes.tk//Math-example</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>A Full and Comprehensive Style Test</title>
         
           <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;

@@ -12,6 +12,20 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>LaTex support in this blog</title>
+	  <link>//Math-example</link>
+	  <author>Admin</author>
+	  <pubDate>2016-09-05T10:18:00+00:00</pubDate>
+	  <guid>//Math-example</guid>
+	  <description><![CDATA[
+	     <p>This is an example of LaTex support in this blog:</p>
+
+<script type="math/tex; mode=display">s[l]=\Re\{e^{j(\pi kt^{2}+2\pi f_{0}t)}\}</script>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>//a-full-and-comprehensive-style-test</link>
 	  <author>Admin</author>
